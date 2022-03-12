@@ -10,9 +10,9 @@
     ]
   },
   "scripts": {
-    "start": "yarn workspace front start",
-    "dev": "yarn workspace front dev",
-    "build": "yarn workspace front build"
+    "start": "yarn workspace frontend start",
+    "dev": "yarn workspace frontend dev",
+    "build": "yarn workspace frontend build"
   },
   "repository": {
     "type": "git",

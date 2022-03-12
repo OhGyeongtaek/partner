@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/OhGyeongtaek/SPAM/issues"
   },
-  "homepage": "https://github.com/OhGyeongtaek/SPAM#readme"
+  "homepage": "https://github.com/OhGyeongtaek/SPAM#readme",
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.2.7"
+  }
 }

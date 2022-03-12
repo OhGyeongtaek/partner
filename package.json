@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "frontend"
+    ]
+  },
   "scripts": {
-    "start": "cd ./frontend && yarn start",
-    "dev": "cd ./frontend && yarn dev",
-    "build": "cd ./frontend && yarn build"
+    "start": "yarn workspace front start",
+    "dev": "yarn workspace front dev",
+    "build": "yarn workspace front build"
   },
   "repository": {
     "type": "git",

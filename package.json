@@ -27,5 +27,8 @@
   "homepage": "https://github.com/OhGyeongtaek/SPAM#readme",
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.2.7"
+  },
+  "dependencies": {
+    "zustand": "^3.7.1"
   }
 }
